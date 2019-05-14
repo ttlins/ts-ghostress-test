@@ -1,0 +1,10 @@
+{
+  "type": "postgres",
+  "host": "db",
+  "port": 5432,
+  "username": "postgres",
+  "password": "example",
+  "database": "ghostress_test",
+  "entities": ["src/**/*.entity{.ts,.js}"],
+  "synchronize": true
+}
