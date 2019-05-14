@@ -1,9 +1,8 @@
 export class CreateGhostDto {
   name: string;
   age: number;
-  children: CreateGhostDto[];
 }
 
-export class DeleteGhostDto {
+export interface DeleteGhostDto {
   id: number;
 }
